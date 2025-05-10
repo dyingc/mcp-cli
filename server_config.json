@@ -6,19 +6,19 @@
       },
       "code-sandbox": {
         "command": "uv",
-        "args": ["--directory", "/Users/christopherhay/chris-source/mcp-servers/mcp-code-sandbox/", "run", "src/main.py"]
+        "args": ["--directory", "examples/sample_tools/", "run", "code_sandbox_server.py"]
       },
       "filesystem": {
         "command": "npx",
         "args": [
           "-y",
           "@modelcontextprotocol/server-filesystem",
-          "/Users/christopherhay/chris-source/chuk-test-code/fibonacci"
+          "/tmp/mcp-cli/chuk-test-code/fibonacci"
         ]
       },
       "generic": {
         "command": "uv",
-        "args": ["--directory", "/Users/christopherhay/chris-source/agent-x/mcp-host", "run", "runtime/src/mcp_server/main.py"]
+        "args": ["--directory", "/tmp/mcp-cli/agent-x/mcp-host", "run", "runtime/src/mcp_server/main.py"]
       },
       "time": {
         "command": "uvx",
@@ -26,7 +26,7 @@
       },
       "time2": {
         "command": "uv",
-        "args": ["--directory", "/Users/christopherhay/chris-source/chuk-mcp-servers/chuk-mcp-time-server", "run", "src/chuk_mcp_time_server/main.py"]
+        "args": ["--directory", "/tmp/mcp-cli/chuk-mcp-servers/chuk-mcp-time-server", "run", "src/chuk_mcp_time_server/main.py"]
       },
       "echo": {
         "command": "uvx",
@@ -34,19 +34,19 @@
       },
       "echo2": {
         "command": "uv",
-        "args": ["--directory", "/Users/christopherhay/chris-source/chuk-mcp-servers/chuk-mcp-echo-server", "run", "src/chuk_mcp_echo_server/main.py"]
+        "args": ["--directory", "/tmp/mcp-cli/chuk-mcp-servers/chuk-mcp-echo-server", "run", "src/chuk_mcp_echo_server/main.py"]
       },
       "telnet": {
         "command": "uv",
-        "args": ["--directory", "/Users/christopherhay/chris-source/chuk-mcp-servers/chuk-mcp-telnet-client", "run", "src/chuk_mcp_telnet_client/main.py"]
+        "args": ["--directory", "/tmp/mcp-cli/chuk-mcp-servers/chuk-mcp-telnet-client", "run", "src/chuk_mcp_telnet_client/main.py"]
       },
       "simple": {
         "command": "uv",
-        "args": ["--directory", "/Users/christopherhay/chris-source/agent-x/mcp-servers/chuk-mcp-runtime/examples/simple_server", "run", "main.py"]
+        "args": ["--directory", "/tmp/mcp-cli/agent-x/mcp-servers/chuk-mcp-runtime/examples/simple_server", "run", "main.py"]
       },
       "sandbox": {
         "command": "uv",
-        "args": ["--directory", "/Users/christopherhay/chris-source/agent-x/mcp-servers/chuk-mcp-sandbox", "run", "src/chuk_mcp_sandbox/main.py"]
+        "args": ["--directory", "/tmp/mcp-cli/agent-x/mcp-servers/chuk-mcp-sandbox", "run", "src/chuk_mcp_sandbox/main.py"]
       }
     }
   }
